@@ -19,15 +19,12 @@ It uses [@iobroker/modbus](https://github.com/ioBroker/modbus) library to read t
 -->
 ## Changelog
 ### 0.0.4 (2025-10-08)
-* (bluefox) Changed bind to host
-
-### 0.0.2 (2025-10-07)
-* (bluefox) initial commit
+* (NexoWatt) initial commit
 
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2025 Bluefox <dogafox@gmail.com>
+Copyright (c) 2025 Nexowatt <info@nexowatt.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
