@@ -1,0 +1,94 @@
+{
+    "common": {
+        "name": "modbus-fenecon",
+        "version": "0.0.1",
+        "news": {},
+        "titleLang": {
+            "en": "Modbus-Fenecon",
+            "de": "ModBus-Fenecon",
+            "ru": "ModBus-Fenecon",
+            "pt": "ModBus-Fenecon",
+            "nl": "ModBus-Fenecon",
+            "fr": "ModBus-Fenecon",
+            "it": "ModBus-Fenecon",
+            "es": "ModBus-Fenecon",
+            "pl": "ModBus-Fenecon",
+            "uk": "ModBus-Fenecon",
+            "zh-cn": "ModBus-Fenecon"
+        },
+        "desc": {
+            "en": "Communication with Fenecon via Modbus",
+            "de": "Kommunikation mit Fenecon über Modbus",
+            "ru": "Связь с Fenecon через Modbus",
+            "pt": "Comunicação com Fenecon via Modbus",
+            "nl": "Communicatie met Fenecon via Modbus",
+            "fr": "Communication avec Fenecon via Modbus",
+            "it": "Comunicazione con Fenecon tramite Modbus",
+            "es": "Comunicación con Fenecon a través de Modbus",
+            "pl": "Komunikacja z Fenecon przez Modbus",
+            "uk": "Зв'язок із Fenecon через Modbus",
+            "zh-cn": "通过 Modbus 与 Fenecon 通信"
+        },
+        "authors": ["nexowatt <info@nexowatt.com>"],
+        "licenseInformation": {
+            "license": "MIT",
+            "type": "free"
+        },
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "loglevel": "info",
+        "messagebox": true,
+        "icon": "modbus-fenecon.svg",
+        "keywords": ["ModBus", "fenecon"],
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.modbus-fenecon/master/admin/modbus-fenecon.svg",
+        "readme": "https://github.com/ioBroker/ioBroker.modbus-fenecon/blob/master/README.md",
+        "type": "protocols",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "tier": 2,
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.1.28"
+            }
+        ]
+    },
+    "native": {
+        "params": {
+            "host": "127.0.0.1",
+            "port": 502
+        }
+    },
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "If master connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
+    ]
+}
