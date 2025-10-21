@@ -3,13 +3,13 @@
   "version": "0.1.1",
   "description": "Connect devices oder Modbus protocol to ioBroker",
   "author": {
-    "name": "bluefox",
-    "email": "dogafox@gmail.com"
+    "name": "NexoWatt",
+    "email": "info@nexowatt.com"
   },
   "contributors": [
     {
-      "name": "bluefox",
-      "email": "dogafox@gmail.com"
+      "name": "NexoWatt",
+      "email": "info@nexowatt.com"
     }
   ],
   "homepage": "https://github.com/ioBroker/ioBroker.modbus-fenecon",
