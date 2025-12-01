@@ -42,7 +42,7 @@ class ModbusAdapter extends modbus_1.default {
         // created with "node node_modules/@iobroker/modbus/encrypt.mjs data/holding-registers.tsv"
         const holdingRegs = (0, modbus_1.tsv2registers)('holdingRegs', `${__dirname}/../data/holding-registers.tsv.enc`, '/zVhg5u0aWDwjwzYbDbIH0W1yHLSBI98LY/VQ9wQ6wg=');
         // created with "node node_modules/@iobroker/modbus/encrypt.mjs data/input-registers.tsv"
-        const inputRegs = (0, modbus_1.tsv2registers)('holdingRegs', `${__dirname}/../data/input-registers.tsv.enc`, 'wFaskODpaUK+kpn0JjuIOksyeFE6xKuiUtctK7IJ2jU=');
+        const inputRegs = (0, modbus_1.tsv2registers)('holdingRegs', `${__dirname}/../data/input-registers.tsv`);
         // holdingRegs.forEach(holdingReg => {
         //     holdingReg._address = parseInt(holdingReg._address as string, 10) - 40001;
         //     if (holdingReg.formula) {
