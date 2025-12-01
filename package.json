@@ -49,6 +49,7 @@
     "build/",
     "data/holding-registers.tsv.enc",
     "data/input-registers.tsv.enc",
+    "data/input-registers.tsv",
     "io-package.json",
     "LICENSE"
   ],

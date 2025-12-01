@@ -15,8 +15,8 @@ export class ModbusAdapter extends ModbusTemplate {
         // created with "node node_modules/@iobroker/modbus/encrypt.mjs data/input-registers.tsv"
         const inputRegs = tsv2registers(
             'holdingRegs',
-            `${__dirname}/../data/input-registers.tsv.enc`,
-            'wFaskODpaUK+kpn0JjuIOksyeFE6xKuiUtctK7IJ2jU=',
+            `${__dirname}/../data/input-registers.tsv`,
+            //'wFaskODpaUK+kpn0JjuIOksyeFE6xKuiUtctK7IJ2jU=',
         );
         // holdingRegs.forEach(holdingReg => {
         //     holdingReg._address = parseInt(holdingReg._address as string, 10) - 40001;
