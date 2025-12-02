@@ -29,7 +29,7 @@ Bitte per **E-Mail** anfragen (Kontaktadresse info@nexowatt.com verwenden).
 
 
 ## Voraussetzungen
-- FENECON EMS  Homespeicher, Gewerbespeicher
+- FENECON EMS Homespeicher, Gewerbespeicher
 - Netzwerkzugriff zum EMS (IP/Port, Standard meist **502**)
 - Für Schreibzugriffe: **FENECON Modbus Write App** (Bezug via Nexowatt, Anfrage per E-Mail)
 
@@ -44,7 +44,7 @@ Bitte per **E-Mail** anfragen (Kontaktadresse info@nexowatt.com verwenden).
 ## Konfiguration
 1. **Verbindung:** IP-Adresse des EMS und Port (Standard 502) eintragen.   
 2. **Schreiben aktivieren (optional):**  
-   - FENECON Modbus Write App installieren/aktivieren: über das FEMS App center und Lizenzsclüssel eingeben und installieren (Bezug Lizenzschlüssel via Nexowatt per E-Mail).  
+   - FENECON Modbus Write App installieren/aktivieren: über das FEMS App center und Lizenzschlüssel eingeben und installieren (Bezug Lizenzschlüssel via Nexowatt per E-Mail).  
 
 
 # FENECON EMS Modbus Adapter
